@@ -176,7 +176,13 @@
       "raise"
     ],
     "Value": ["True", "False", "None"],
-    "Operator": ["and", "or", "not", "in", "is"],
+    "Operator": [
+      "and",
+      "or",
+      "not",
+      "in",
+      "is"
+    ],
     "Control-Flow": ["if", "elif", "else"],
     "Iteration": [
       "for",
