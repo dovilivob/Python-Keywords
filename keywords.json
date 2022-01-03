@@ -186,7 +186,7 @@
       "else"
     ],
     "Structure": [
-      ".lambda",
+      "@lambda",
       "def",
       "class",
       "with",
@@ -215,8 +215,8 @@
   },
   "Function": {
     "Built-in-Function": [
-      ".id()",
-      ".type()",
+      "@id()",
+      "@type()",
       "abs()",
       "all()",
       "any()",
