@@ -1,0 +1,36 @@
+{
+  "Value": ["True", "False", "None"],
+  "Operator": ["and", "or", "not", "in", "is"],
+  "Control Flow": ["if", "elif", "else"],
+  "Iteration": [
+    "for",
+    "while",
+    "break",
+    "continue",
+    "else"
+  ],
+  "Structure": [
+    "def",
+    "class",
+    "with",
+    "as",
+    "pass",
+    "lambda"
+  ],
+  "Returning": ["return", "yield"],
+  "Import": ["import", "from", "as"],
+  "Exception-Handling": [
+    "try",
+    "except",
+    "raise",
+    "finally",
+    "else",
+    "assert"
+  ],
+  "Asynchronous Programming": ["async", "await"],
+  "Variable Handling": [
+    "del",
+    "global",
+    "nonlocal"
+  ]
+}
