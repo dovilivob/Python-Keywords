@@ -3,6 +3,8 @@
 
 # eval(expression, globals, locals)
 
+# Only eccepts a single expression
+
 x = 'print(3)'
 eval(x)
 # output: 3
