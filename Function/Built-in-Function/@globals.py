@@ -1,4 +1,4 @@
-# return the global symbol table as a dictionary
+# Returns the global symbol table as a dictionary
 # A symbol table contains necessary information about the current program
 
 x = globals()

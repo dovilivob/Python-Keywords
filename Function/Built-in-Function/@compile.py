@@ -1,4 +1,4 @@
-# return the specified source as a code object, ready to be executed
+# Returns the specified source as a code object, ready to be executed
 
 # compile(source, filename, mode, flag, dont_inherit, optimize)
 

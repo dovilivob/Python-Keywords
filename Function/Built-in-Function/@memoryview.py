@@ -1,4 +1,4 @@
-# return a memory view object from asepcified object
+# Returns a memory view object from asepcified object
 
 # memoryview(obj)
 # obj: A Bytes object or a Bytearray object

@@ -1,4 +1,4 @@
-# return True if the specified object is of the specified type, otherwise False.
+# Returns True if the specified object is of the specified type, otherwise False.
 # If the type parameter is a tuple, return True if the object is one the types in the tuple.
 
 print(isinstance(3, int))

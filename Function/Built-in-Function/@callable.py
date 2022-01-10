@@ -1,4 +1,4 @@
-# returns True if the specified object is callable
+# Returnss True if the specified object is callable
 def x():
     a = 5
 

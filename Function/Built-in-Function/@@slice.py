@@ -1,4 +1,4 @@
-# return to specify how to slice a sequence.
+# Returns to specify how to slice a sequence.
 # You can specify where to start the slicing,
 # and where to end. You can also specify the step,
 # which allows you to e.g. slice only every other item.

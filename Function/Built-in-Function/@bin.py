@@ -1,5 +1,5 @@
 # bin(int)
-# return the binary version of a specified integer
+# Returns the binary version of a specified integer
 # The result always start with the prefix 0b
 
 print(bin(36))

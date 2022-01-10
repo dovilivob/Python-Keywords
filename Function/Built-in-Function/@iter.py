@@ -1,4 +1,4 @@
-# return an iterable object
+# Returns an iterable object
 
 x = iter(['a', 'b', 'c'])
 

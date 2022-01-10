@@ -1,4 +1,4 @@
-# return a sorted list of the specified iterable object
+# Returns a sorted list of the specified iterable object
 
 iterable = (1, 22, 43, 54, 222, 5, 2, 858)
 key = None

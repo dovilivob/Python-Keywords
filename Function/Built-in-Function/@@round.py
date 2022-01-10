@@ -1,4 +1,4 @@
-# return a float that is rounded version of specified number,
+# Returns a float that is rounded version of specified number,
 # with the specified number of decimal
 # The default number of decimal is 0,
 # meaning that the function will return the nearest integer.

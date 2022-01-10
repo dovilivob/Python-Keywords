@@ -1,4 +1,4 @@
-# return all properties an methods of the object, without the values
+# Returns all properties an methods of the object, without the values
 
 class Person:
     name = 'Jerry'

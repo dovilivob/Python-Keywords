@@ -1,4 +1,4 @@
-# return an unchangeable frozenset object
+# Returns an unchangeable frozenset object
 
 
 myList = ['a', 'b', 'c']

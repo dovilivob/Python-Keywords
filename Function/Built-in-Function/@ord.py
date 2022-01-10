@@ -1,4 +1,4 @@
-# return the number representing
+# Returns the number representing
 # the unicode code of a specified character
 
 # ord(character)

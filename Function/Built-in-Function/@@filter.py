@@ -1,4 +1,4 @@
-# return an iterator were the items are filtered through a function to test if the item is accepted or not.
+# Returns an iterator were the items are filtered through a function to test if the item is accepted or not.
 
 # filter(function, iterable)
 

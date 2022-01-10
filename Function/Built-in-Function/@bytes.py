@@ -1,4 +1,4 @@
-# return a bytes object.
+# Returns a bytes object.
 
 # bytes returns an object that cannot be modified,
 # bytearry returns an object that can be modified. 

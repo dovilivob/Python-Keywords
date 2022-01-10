@@ -1,4 +1,4 @@
-# return a type containing teh quotioent and the remainder 
+# Returns a type containing teh quotioent and the remainder 
 # when argument 1 (diviend) is divided by argument 2 (divisor).
 
 # divmod(dividend, divisor) = (quotient, remainder)

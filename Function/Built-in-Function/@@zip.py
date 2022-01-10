@@ -1,4 +1,4 @@
-# returns a zip object, which si an iterator of tuples where the first item in each passed iterator is paired together, and then the second item in each passed iterator are paired together etc.
+# Returnss a zip object, which si an iterator of tuples where the first item in each passed iterator is paired together, and then the second item in each passed iterator are paired together etc.
 
 # If the fassed iterators have different lengths, the iterator with the least items decides the length of the new iterator
 

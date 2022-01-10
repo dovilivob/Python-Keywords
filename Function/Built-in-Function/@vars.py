@@ -1,4 +1,4 @@
-# return the __dic__ attribute of an object
+# Returns the __dic__ attribute of an object
 
 # Calling the vars() without parameters will return
 # a dictionary containing the local symbol table.

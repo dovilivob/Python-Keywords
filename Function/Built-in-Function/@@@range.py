@@ -1,4 +1,4 @@
-# return a sequence of numbers,
+# Returns a sequence of numbers,
 # starting from 0 by default,
 # and increments by 1 by default,
 # and stops before a specified number.
