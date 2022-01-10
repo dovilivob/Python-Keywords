@@ -4,7 +4,8 @@ string = "H\te\tl\tl\to"
 
 tabsize = 2
 def printLine(string):
-    print(string.expandtabs(tabsize).center(51, '!'))
+    string = string.expandtabs(tabsize)
+    print(string.center(51, '!'))
     
 for i in range(11):
     printLine(string)
