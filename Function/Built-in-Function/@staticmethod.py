@@ -1,5 +1,3 @@
-
-
 # Python program to
 # demonstrate static methods
 
