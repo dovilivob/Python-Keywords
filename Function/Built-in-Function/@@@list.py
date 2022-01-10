@@ -10,3 +10,7 @@ x = list(dict(a=3, b=2, c=1))
 print(x)
 # output:
 #   ['a', 'b', 'c']
+
+x = list('apple')
+# output:
+#   ['a', 'p', 'p', 'l', 'e']
