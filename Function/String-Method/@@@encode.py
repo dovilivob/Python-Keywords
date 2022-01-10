@@ -3,6 +3,9 @@ string = 'My name is 邱傑義'
 
 (encoding, errors) = ('utf-8', 'ignore')
 
+print(string.encode(encoding=encoding, errors=errors))
+# b'My name is \xe9\x82\xb1\xe5\x82\x91\xe7\xbe\xa9'
+
 print(string.encode(encoding="ascii", errors="backslashreplace"))
 # b'My name is \\u90b1\\u5091\\u7fa9'
 
