@@ -1,6 +1,6 @@
 f = open("data/file.txt", "r")
 print(f.read())
-# output: hello world
+# Output: hello world
 
 # "r" - Read - Default value. Opens a file for reading, error if the file does not exist
 

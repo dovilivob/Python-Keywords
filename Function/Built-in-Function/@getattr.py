@@ -6,10 +6,10 @@ class Person:
     
 x = getattr(Person, 'age')
 print(x)
-# output: 79
+# Output: 79
 
 attr = 'weight'
 y = getattr(Person, attr, 'No attribute called {}'.format(attr))
 print(y)
-# output:
+# Output:
 #   No attribute called weight

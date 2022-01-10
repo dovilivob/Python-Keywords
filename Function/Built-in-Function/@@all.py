@@ -12,20 +12,20 @@ print(all(myList))
 
 myList = []
 print(all(myList))
-# output: True
+# Output: True
 
 myList = [[]]
 print(all(myList))
-# output: False
+# Output: False
 
 myList = [00, 33]
 print(all(myList))
-# output: False
+# Output: False
 
 myDict = {0: "Zero", 1: "One"}
 print(all(myDict))
-# output: False
+# Output: False
 
 myDict = {1: "Zero", 2: "One"}
 print(all(myDict))
-# output: True
+# Output: True

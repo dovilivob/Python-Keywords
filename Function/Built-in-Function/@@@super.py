@@ -17,5 +17,5 @@ class Child(Parent):
 x = Child("Hello, Welcome!")
 
 x.printmessage()
-# output: 
+# Output: 
 #   Hello, Welcome!

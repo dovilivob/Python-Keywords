@@ -8,6 +8,6 @@ y = abs(4 + 3j)
 print(x, y)
 print(1j ** 2)
 
-# output:
+# Output:
 #   0.454 5.0
 #   (-1+0j)

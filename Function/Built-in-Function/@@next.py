@@ -6,14 +6,14 @@
 arr = iter(['elephant', 'zebra', 'lion', 'butterfly'])
 
 print(next(arr))
-# output: elephant
+# Output: elephant
 print(next(arr))
-# output: zebra
+# Output: zebra
 print(next(arr))
-# output: lion
+# Output: lion
 print(next(arr))
-# output: butterfly
+# Output: butterfly
 print(next(arr, 'end'))
-# output: end
+# Output: end
 print(next(arr, 'end you fuck'))
-# output: end you fuck
+# Output: end you fuck

@@ -3,7 +3,7 @@
 # base: A number representing the number format. Default 10
 
 print(int(3.9))
-# output: 3
+# Output: 3
 
 print(int('545'))
-# output: 545
+# Output: 545

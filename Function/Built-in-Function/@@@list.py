@@ -3,14 +3,14 @@
 
 x = list(('a', 'b', 'c'))
 print(x)
-# output:
+# Output:
 #   ['a', 'b', 'c']
 
 x = list(dict(a=3, b=2, c=1))
 print(x)
-# output:
+# Output:
 #   ['a', 'b', 'c']
 
 x = list('apple')
-# output:
+# Output:
 #   ['a', 'p', 'p', 'l', 'e']

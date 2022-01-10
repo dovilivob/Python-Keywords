@@ -3,6 +3,6 @@
 string = 'The user input is: {}'.format(input('input: '))
 
 print(string)
-# output:
+# Output:
 #   input: hello
 #   The user input is: hello

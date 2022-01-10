@@ -5,4 +5,4 @@ class Person:
     country = 'China'
     
 print(hasattr(Person, 'age'))
-# output:   True
+# Output:   True

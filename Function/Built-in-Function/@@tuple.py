@@ -1,5 +1,5 @@
 
 iterable = (1, 3, 5, 3, 324, 53)
 print(tuple(iterable))
-# output: 
+# Output: 
 #   (1, 3, 5, 3, 324, 53)

@@ -5,5 +5,5 @@ key = None
 reverse = False
 
 print(sorted(iterable, key=key, reverse=reverse))
-# output:
+# Output:
 #   [1, 2, 5, 22, 43, 54, 222, 858]

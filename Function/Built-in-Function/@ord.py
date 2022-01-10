@@ -7,7 +7,7 @@ chars = list('qwertyuiopasdfghjklzxcvbnm')
 for char in chars:
     print(char, "-", ord(char))
     
-# output:
+# Output:
 # q - 113
 # w - 119
 # e - 101

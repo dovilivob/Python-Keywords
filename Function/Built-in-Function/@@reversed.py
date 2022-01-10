@@ -5,7 +5,7 @@ ralph = reversed(alph)
 for x in ralph:
     print(x)
     
-# output:
+# Output:
 # 9
 # 8
 # 7

@@ -15,7 +15,7 @@ adults = filter(func, ages)
 for x in adults:
     print(x)
     
-# output: 
+# Output: 
 # 23
 # 22
 # 55

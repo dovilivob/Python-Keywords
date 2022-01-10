@@ -3,9 +3,9 @@
 
 x = globals()
 print(x)
-# output:
+# Output:
 #   {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x7f9bc212cc10>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, '__file__': '/home/dovilivob/Programming/Python-Keywords/Function/Built-in-Function/globals.py', '__cached__': None, 'x': {...}}
 
 print(x['__file__'])
-# output:
+# Output:
 #   /home/dovilivob/Programming/Python-Keywords/Function/Built-in-Function/globals.py

@@ -13,7 +13,7 @@
 #   Optional. An object with a write method. Default is sys.stdout
 
 # flush	
-#   Optional. A Boolean, specifying if the output is flushed(True) or buffered(False). Default is False
+#   Optional. A Boolean, specifying if the Output is flushed(True) or buffered(False). Default is False
 print('Hello', 'how are you?', sep='---')
-# output: 
+# Output: 
 #     Hello---how are you?

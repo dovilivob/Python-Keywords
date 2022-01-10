@@ -2,4 +2,4 @@
 # When the object is a string, return the nubmer of characters in the string.
 
 print(len('jdk'))
-# output: 3
+# Output: 3

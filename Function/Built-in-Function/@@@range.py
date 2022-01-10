@@ -11,14 +11,14 @@ x = range(3)
 
 for n in x:
     print(n)
-# output:
+# Output:
 # 0
 # 1
 # 3
 
 for i in range(8, 90, 12):
     print(i)
-# output:
+# Output:
 # 8
 # 20
 # 32

@@ -2,13 +2,13 @@
 # If the type parameter is a tuple, return True if the object is one the types in the tuple.
 
 print(isinstance(3, int))
-# output: True
+# Output: True
 
 print(isinstance('Hello', (float, int, list, dict, tuple)))
-# output: False
+# Output: False
 
 print(isinstance('Hello', (float, int, list, dict, tuple, str)))
-# output: True
+# Output: True
 
 class Obj:
     name = 'Nick'
@@ -16,8 +16,8 @@ class Obj:
 y = Obj()
 
 print(isinstance(y, Obj))
-# output: True
+# Output: True
 
 y = 'djfkd'
 print(isinstance(y, Obj))
-# output: False
+# Output: False

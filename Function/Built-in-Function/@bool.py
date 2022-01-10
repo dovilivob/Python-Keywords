@@ -3,10 +3,10 @@
 #   0, False, None, [], {}, ()
 
 print(bool(3737))
-# output: True
+# Output: True
 
 print(bool([[]]))
-# output: True
+# Output: True
 
 print(bool([]))
-# output: False
+# Output: False
