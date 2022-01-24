@@ -1,8 +1,10 @@
 # Allows user input
 
-string = 'The user input is: {}'.format(input('input: '))
+string = 'input: '
 
-print(string)
+result = 'The user input is: {}'.format(input(string))
+
+print(result)
 # Output:
 #   input: hello
 #   The user input is: hello

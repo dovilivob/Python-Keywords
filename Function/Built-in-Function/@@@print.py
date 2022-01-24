@@ -1,4 +1,4 @@
-# print(object(s), sep=separator, end=end, file=file, flush=flush)
+from os import sep
 
 # object(s)	
 #   Any object, and as many as you like. Will be converted to string before printed
@@ -14,6 +14,22 @@
 
 # flush	
 #   Optional. A Boolean, specifying if the Output is flushed(True) or buffered(False). Default is False
-print('Hello', 'how are you?', sep='---')
+
+string1, string2 = 'Hello', 'how are you?'
+
+
+class vars: (separator, end, file, flush) = (' ', '\n', 'sys.stdout', False)
+
+(separator, end, file, flush) = vars.separator, vars.end, vars.file, vars.flush
+
+print(string1, string2, sep=separator, end=end, flush=flush)
 # Output: 
-#     Hello---how are you?
+#     Hello how are you?
+
+file = open('./data/printFile.txt', 'w')
+separator, end, flush = ' --- ', ' ### This is the end of the line!', False
+
+print(string1, string2, sep=separator, end=end, file=file, flush=flush)
+# Output:
+#   (In the text file)
+#   Hello --- how are you? ### This is the end of the line!

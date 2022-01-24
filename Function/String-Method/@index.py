@@ -4,12 +4,10 @@
 string = 'Hello, are you alright?'
 
 
-class Default:
-    
-    (value, start, end) = ('a', 0, len(string))
+class vars: (value, start, end) = ('a', 0, len(string))
 
 
-(value, start, end) = (Default.value, Default.start, Default.end)
+(value, start, end) = (vars.value, vars.start, vars.end)
 
 result = string.index(value, start, end)
 

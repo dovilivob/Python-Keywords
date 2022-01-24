@@ -7,17 +7,23 @@
 # step: An integer specifying the incrementation.
 # Default 1
 
+class vars: start, step = 0, 1
+
 x = range(3)
 
 for n in x:
     print(n)
+    
 # Output:
 # 0
 # 1
 # 3
 
-for i in range(8, 90, 12):
+start, end, step = 8, 90, 12
+
+for i in range(start, end, step):
     print(i)
+    
 # Output:
 # 8
 # 20

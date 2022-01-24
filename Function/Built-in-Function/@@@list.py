@@ -1,16 +1,20 @@
 # Creates a list object
 # list(iterable)
 
-x = list(('a', 'b', 'c'))
-print(x)
+
+Dict = ('a', 'b', 'c')
+result = list(Dict)
+print(result)
 # Output:
 #   ['a', 'b', 'c']
 
-x = list(dict(a=3, b=2, c=1))
-print(x)
+Dict = dict(a=3, b=2, c=1)
+result = list(Dict)
+print(result)
 # Output:
 #   ['a', 'b', 'c']
 
-x = list('apple')
+string = 'apple'
+result = list(string)
 # Output:
 #   ['a', 'p', 'p', 'l', 'e']

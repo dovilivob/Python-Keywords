@@ -1,6 +1,16 @@
-f = open("data/file.txt", "r")
-print(f.read())
+
+fileDir = 'data/file.txt'
+
+class vars: mode = 'r'
+
+f = open(fileDir, vars.mode)
+result = f.read()
+print(result)
 # Output: hello world
+
+
+
+
 
 # "r" - Read - Default value. Opens a file for reading, error if the file does not exist
 
