@@ -5,12 +5,12 @@ def printFile(string):
     print('#', string, file=file)
 
 
-class values():
+class vars:
     iterable = {"name": "David", "id": 30, "country": "Taiwan"}
     separator = ' / '
 
 
-iterable, separator = values.iterable, values.separator
+iterable, separator = vars.iterable, vars.separator
 printFile(separator.join(iterable))
 
 iterable, separator = 'hello', ' ! '
