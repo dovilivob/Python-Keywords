@@ -1,7 +1,7 @@
 text = "hello, WORLD"
 
 print(text.capitalize())
-# Output: Hello, world
+# out: Hello, world
 
 print('34'.capitalize())
-# Output: 34
+# out: 34

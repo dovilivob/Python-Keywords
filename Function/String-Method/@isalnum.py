@@ -2,13 +2,13 @@
 # meaning alphabet letter (a - z) and numbers (0 - 9)
 
 
-def doThings(string):
+def stuff(string):
     result = string.isalnum()
     print(result)
     
     
-doThings('returnTrue42069')
-# Output: True
+stuff('returnTrue42069')
+# out: True
 
-doThings('return False')
-# Output: False
+stuff('return False')
+# out: False

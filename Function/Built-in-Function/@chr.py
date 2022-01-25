@@ -2,7 +2,7 @@
 
 
 print(chr(39))
-# Output: '
+# out: '
 
 print(chr(90909))
-# Output: 𖌝
+# out: 𖌝

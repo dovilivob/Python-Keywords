@@ -1,14 +1,14 @@
 
-def doThings(string):
+def stuff(string):
     result = string.isascii()
     print(result)
 
-doThings('David Chiu 0818')
+stuff('David Chiu 0818')
 
-# Output: True
+# out: True
 
-doThings('!!!')
-# Output: True
+stuff('!!!')
+# out: True
 
-doThings('你好')
-# Output: False
+stuff('你好')
+# out: False

@@ -7,7 +7,7 @@ print(type(a))
 a = {7}
 print(type(a))
 
-# Output:
+# out:
 
 # <class 'int'>
 # <class 'str'>

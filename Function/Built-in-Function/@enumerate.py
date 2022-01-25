@@ -13,7 +13,7 @@ print(enumerate(x))
 
 y = x
 print(enumerate(y))
-# Output: 
+# out: 
 #   <enumerate object at 0x7fa448522a40>
 #   <enumerate object at 0x7fa448522a40 >
 #   <enumerate object at 0x7fa448522a40 >

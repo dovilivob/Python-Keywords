@@ -6,5 +6,5 @@
 
 x = set(('asshole', 'bitch', 'cunt', 'dumb', 'eat shit', 'fuck'))
 print(x)
-# Output:
+# out:
 #   {'fuck', 'bitch', 'dumb', 'eat shit', 'asshole', 'cunt'}

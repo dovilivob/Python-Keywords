@@ -6,4 +6,4 @@ string = 'ok goodnight'
 result = len(string)
 
 print(result)
-# Output: 12
+# out: 12

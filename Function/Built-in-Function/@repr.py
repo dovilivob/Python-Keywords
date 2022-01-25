@@ -12,4 +12,4 @@ class geek:
 
 geek1 = geek('mohan')
 print(repr(geek1))
-# Output: mohan
+# out: mohan

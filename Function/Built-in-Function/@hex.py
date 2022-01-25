@@ -4,4 +4,4 @@
 
 x = hex(79)
 print(x)
-# Output: 0x21
+# out: 0x21

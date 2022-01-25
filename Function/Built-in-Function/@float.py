@@ -3,7 +3,7 @@
 # float(value)
 
 print(float(9))
-# Output: 9.0
+# out: 9.0
 
 print(float('2'))
-# Output: 2.0
+# out: 2.0

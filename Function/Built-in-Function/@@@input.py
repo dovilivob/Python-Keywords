@@ -5,6 +5,6 @@ string = 'input: '
 result = 'The user input is: {}'.format(input(string))
 
 print(result)
-# Output:
+# out:
 #   input: hello
 #   The user input is: hello

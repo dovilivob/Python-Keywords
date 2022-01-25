@@ -13,5 +13,5 @@ remainder = x[1]
 
 print(x, quotient * divisor + remainder)
 
-# Output:
+# out:
 # (7, 2) 65

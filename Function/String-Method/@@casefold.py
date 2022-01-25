@@ -6,9 +6,9 @@
 string = "Hello, And Welcome To My World!"
 
 print(string.casefold())
-# Output:
+# out:
 #   hello, and welcome to my world!
 
 print(string.lower())
-# Output:
+# out:
 #   hello, and welcome to my world!

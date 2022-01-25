@@ -9,16 +9,16 @@
 
 myTuple = (0, 1, False)
 print(any(myTuple))
-# Output: True
+# out: True
 
 mySet = {0, 0, 7}
 print(any(mySet))
-# Output: True
+# out: True
 
 myDict = {0: "Zero", 1: "One"}
 print(any(myDict))
-# Output: True
+# out: True
 
 myList = [0, False, {}, [], (), None]
 print(any(myList))
-# Output: False
+# out: False

@@ -6,7 +6,7 @@ class vars: mode = 'r'
 f = open(fileDir, vars.mode)
 result = f.read()
 print(result)
-# Output: hello world
+# out: hello world
 
 
 

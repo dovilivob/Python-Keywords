@@ -6,12 +6,12 @@ string = "I love mango, it's my favorite fruit"
 
 
 print(string.count(value, start, end))
-# Output: 0
+# out: 0
 
 value = 'mango'
 print(string.count(value, start, end))
-# Output: 1
+# out: 1
 
 value = 'i'
 print(string.count(value, start, end))
-# Output: 3
+# out: 3

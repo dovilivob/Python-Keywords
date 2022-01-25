@@ -9,11 +9,11 @@ def myfunc(n):
 
 x = map(myfunc, ('apple', 'banana', 'Canada'))
 print(list(x))
-# Output: [5, 6, 6]
+# out: [5, 6, 6]
 
 def plus(a, b):
     return a + b
 
 x = map(plus, (1, 3, 4), (3, 5, 7))
 print(list(x))
-# Output: [4, 8, 11]
+# out: [4, 8, 11]

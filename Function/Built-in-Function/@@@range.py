@@ -14,7 +14,7 @@ x = range(3)
 for n in x:
     print(n)
     
-# Output:
+# out:
 # 0
 # 1
 # 3
@@ -24,7 +24,7 @@ start, end, step = 8, 90, 12
 for i in range(start, end, step):
     print(i)
     
-# Output:
+# out:
 # 8
 # 20
 # 32

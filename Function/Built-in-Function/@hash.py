@@ -4,5 +4,5 @@ text = 'Python Programming'
 hash_value = hash(text)
 print(hash_value)
 
-# Output: 
+# out: 
 #   -966697084172663693

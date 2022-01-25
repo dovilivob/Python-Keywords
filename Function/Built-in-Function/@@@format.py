@@ -4,41 +4,41 @@
 
 
 print(format(0.3434, '%'))
-# Output:
+# out:
 #   34.340000%
 
 print("{0} {1} {1} {2}".format("hello", "world", "NiHow"))
-# Output:
+# out:
 #   hello world world NiHow
 
 name = "Tom"
 age = 89
 string = 'My name is {} and my age is {}'.format(name, age)
 print(string)
-# Output:
+# out:
 #   My name is Tom and my age is 89
 
 print("{:>10}".format('hello'))
-# Output:
+# out:
 #      hello
 
 print('{:,}'.format(3838383298232))
-# Output:
+# out:
 #   3,838,383,298,232
 
 print('{} {} {} {} {} {} {}'.format(*'1234567'))
-# Output:
+# out:
 #   1 2 3 4 5 6 7
 
 print('The student is {students[1]}'.format(
     students=['David', 'Jerry', 'Wayne']))
-# Output:
+# out:
 #   The student is Jerry
 
 # To format dict, add ** before the dict object
 print('My age is {age} and gender is {gender}'.format(
     **{'age': 20}, **{'gender': "Male"}))
-# Output:
+# out:
 #   My age is 20 and gender is Male
 
 
@@ -72,42 +72,42 @@ name = 'Wayne'
 job = 'Orphan'
 string = f"My name is {name} and my job is being an {job}"
 print(string)
-# Output:
+# out:
 #   My name is Wayne and my job is being an Orphan
 
 print(f"A total number of {10* 339 + 334}")
-# Output:
+# out:
 #   A total number of 3724
 
 print(f"convert ASSHOLE to lower words: {'ASSHOLE'.lower()}")
-# Output:
+# out:
 #   convert ASSHOLE to lower words: asshole
 
 print(f"Complex Number {(2 + 8j) / (4 - 7j)}")
-# Output:
+# out:
 #   Complex Number (-0.7384615384615386+0.7076923076923077j)
 
 men = ['David', 'Jerry', 'Wayne']
 print(f"Get the second man: {men[1]}")
-# Output:
+# out:
 #   Get the second man: Jerry
 
 desableSpecialChar = rf"\n\n\n\n\n\t\t\\\\"
 print(desableSpecialChar)
-# Output:
+# out:
 #   \n\n\n\n\n\t\t\\\\
 
 num = 478394.8383
 
 print(f'num is {num:f}')
-# Output:
+# out:
 #   num is 478394.838300
 
 print(f'num is {num:,f}')
-# Output:
+# out:
 #   num is 478,394.838300
 
 
 print(f"""even ? ansewr: {(lambda n : "Yes" if n % 2 == 0 else "No") (11)}""")
-# Output:
+# out:
 #   even ? enswer: No

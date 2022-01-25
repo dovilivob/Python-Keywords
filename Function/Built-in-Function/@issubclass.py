@@ -14,10 +14,10 @@ class me(now):
 
 
 print(me.age)
-# Output: 21
+# out: 21
 
 print(issubclass(now, me))
-# Output: False
+# out: False
 
 print(issubclass(me, now))
-# Output: True
+# out: True

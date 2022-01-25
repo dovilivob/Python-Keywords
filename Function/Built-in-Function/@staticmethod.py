@@ -16,7 +16,7 @@ if __name__ == "__main__":
     res = Maths.addNum(1, 2)
     print("The result is", res)
 
-# Output: 
+# out: 
 #   The result is 3
 
 
@@ -39,6 +39,6 @@ if __name__ == "__main__":
     res = Person.isAdult(22)
     print('Is person adult:', res)
 
-# Output:
+# out:
 #   Is person adult: False
 #   Is person adult: True

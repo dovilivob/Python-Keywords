@@ -26,7 +26,7 @@ print(x.value)
 x.value = 'GFG'
 
 del x.value
-# Output:
+# out:
 #   Getting value
 #   GeeksforGeeks
 #   Setting value to: GFG

@@ -7,4 +7,4 @@
 
 x = 'print(3)'
 eval(x)
-# Output: 3
+# out: 3

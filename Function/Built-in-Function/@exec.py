@@ -5,7 +5,7 @@
 forloop = 'for i in range(7): print(i)'
 exec(forloop)
 
-# Output:
+# out:
 # 0
 # 1
 # 2
@@ -16,4 +16,4 @@ exec(forloop)
 
 printName = 'name = "David"\nprint(name)'
 exec(printName)
-# Output: David
+# out: David

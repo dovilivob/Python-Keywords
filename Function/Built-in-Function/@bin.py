@@ -3,7 +3,7 @@
 # The result always start with the prefix 0b
 
 print(bin(36))
-# Output: 0b100100
+# out: 0b100100
 
 print(bin(-77))
-# Output: -0b1001101
+# out: -0b1001101

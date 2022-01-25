@@ -11,7 +11,7 @@ for i in range(11):
     printLine(string)
     tabsize += 1
 
-# Output:
+# out:
 
 # !!!!!!!!!!!!!!!!!!!!!H e l l o!!!!!!!!!!!!!!!!!!!!!
 # !!!!!!!!!!!!!!!!!!!H  e  l  l  o!!!!!!!!!!!!!!!!!!!

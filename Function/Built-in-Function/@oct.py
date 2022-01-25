@@ -4,7 +4,7 @@
 x = oct(32)
 
 print(x)
-# Output: 0o40
+# out: 0o40
 
 print(oct(42323))
-# Output: 0o122523
+# out: 0o122523

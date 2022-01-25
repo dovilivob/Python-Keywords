@@ -5,17 +5,17 @@
 
 x = compile('print(33)', 'test', 'eval')
 exec(x)
-# Output: 33
+# out: 33
 
 y = compile('print(55)\nprint(343)', 'test', 'exec')
 exec(y)
-# Output: 
+# out: 
 #   55
 #   343
 
 z = compile('a=0\nfor i in range(7):\n\tprint(a)\n\ta+=1', 'test', 'exec')
 exec(z)
-# Output:
+# out:
 # 0
 # 1
 # 2

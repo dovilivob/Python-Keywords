@@ -23,13 +23,13 @@ class vars: (separator, end, file, flush) = (' ', '\n', 'sys.stdout', False)
 (separator, end, file, flush) = vars.separator, vars.end, vars.file, vars.flush
 
 print(string1, string2, sep=separator, end=end, flush=flush)
-# Output: 
+# out: 
 #     Hello how are you?
 
 file = open('./data/printFile.txt', 'w')
 separator, end, flush = ' --- ', ' ### This is the end of the line!', False
 
 print(string1, string2, sep=separator, end=end, file=file, flush=flush)
-# Output:
+# out:
 #   (In the text file)
 #   Hello --- how are you? ### This is the end of the line!

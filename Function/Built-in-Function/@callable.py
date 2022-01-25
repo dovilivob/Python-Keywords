@@ -14,16 +14,16 @@ class A:
 
 
 print(callable(x))
-# Output: True
+# out: True
 
 print(callable(8))
-# Output: False
+# out: False
 
 print(callable(y))
-# Output: True
+# out: True
 
 print(callable(a))
-# Output: False
+# out: False
 
 print(callable(A))
-# Output: True
+# out: True

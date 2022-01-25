@@ -10,11 +10,11 @@ bx = bytes(x)
 bax = bytearray(x)
 
 print(bx)
-# Output:
+# out:
 #   b'\x00\x00\x00\x00\x00\x00\x00'
 
 print(bax)
-# Output:
+# out:
 #   bytearray(b'\x00\x00\x00\x00\x00\x00\x00')
 
 bax[2] = 3
@@ -22,5 +22,5 @@ bax[2] = 3
 # modifying
 
 print(bax)
-# Output:
+# out:
 #   bytearray(b'\x00\x00\x03\x00\x00\x00\x00')

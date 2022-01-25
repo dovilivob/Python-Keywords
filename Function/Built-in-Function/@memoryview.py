@@ -6,5 +6,5 @@
 x = memoryview(b"hello")
 
 print(list(x))
-# Output:
+# out:
 #   [104, 101, 108, 108, 111]

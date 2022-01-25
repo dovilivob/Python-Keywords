@@ -7,16 +7,16 @@ string = 'Hi There, are you Okay?'
 
 n = string.find(value, start, end)
 print(n)
-# Output: 5
+# out: 5
 
 start = n + 1
 print(string.find(value, start, end))
-# Output: 7
+# out: 7
 
 value = '@'
 print(string.find(value))
-# Output: -1
+# out: -1
 
 print(string.index(value))
-# Output: 
+# out: 
 #   ValueError: substring not found

@@ -1,37 +1,37 @@
 # Returns True if all the chars are decimals (0 - 9)
 
-def doThings(string):
+def stuff(string):
     result = string.isdecimal()
     print(result)
     
-doThings('\u0033') # unicode for '3'
+stuff('\u0033') # unicode for '3'
 
-# Output: True
-
-
-doThings('3')
-
-# Output: True
+# out: True
 
 
-doThings('32_32')
+stuff('3')
 
-# Output: False
-
-
-doThings('\u0030') # 0
-
-# Output: True
+# out: True
 
 
-doThings('\u0047') # G
+stuff('32_32')
 
-# Output: False
+# out: False
 
 
-doThings(3232)
+stuff('\u0030') # 0
 
-# Output: 
+# out: True
+
+
+stuff('\u0047') # G
+
+# out: False
+
+
+stuff(3232)
+
+# out: 
 #   AttributeError: 'int' object has no attribute 'isdecimal'
 
 

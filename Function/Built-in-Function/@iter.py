@@ -3,11 +3,11 @@
 x = iter(['a', 'b', 'c'])
 
 print(next(x))
-# Output: a
+# out: a
 
 print(next(x))
-# Output: b
+# out: b
 
 print(next(x))
-# Output: c
+# out: c
 

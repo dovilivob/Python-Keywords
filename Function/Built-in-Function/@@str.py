@@ -3,4 +3,4 @@
 (object, encoding, errors) = (43, "utf-8", "ignore")
 
 print(str(object))
-# Output: 43
+# out: 43

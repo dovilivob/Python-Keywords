@@ -1,9 +1,9 @@
-def doThings(string):
+def stuff(string):
     result = string.isalpha()
     print(result)
     
-doThings('this is a sentense')
-# Output: False
+stuff('this is a sentense')
+# out: False
 
-doThings('abcdefblablabla')
-# Output: True
+stuff('abcdefblablabla')
+# out: True

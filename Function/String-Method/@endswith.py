@@ -5,8 +5,8 @@ string = "Hello, welcome to my world!"
 (value, start, end) = ('.', 0, len(string))
 
 print(string.endswith(value, start, end))
-# Output: False
+# out: False
 
 value = 'my world!'
 print(string.endswith(value, start, end))
-# Output: True
+# out: True

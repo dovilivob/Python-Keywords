@@ -1,8 +1,8 @@
 print(min(4, 2, 23, 141, 1))
-# Output: 1
+# out: 1
 
 print(min("David", "Jerry", "Jackson", "Wayne"))
-# Output: David
+# out: David
 
 print(min('a', '12'))
-# Output: 12
+# out: 12

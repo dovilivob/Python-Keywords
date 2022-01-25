@@ -7,10 +7,10 @@
 
 x = round(3.347389, 2)
 print(x)
-# Output: 3.35
+# out: 3.35
 
 print(round(4.349348))
-# Output: 4
+# out: 4
 
 print(round(4.5100))
-# Output: 5
+# out: 5

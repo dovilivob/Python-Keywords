@@ -12,11 +12,11 @@ class vars: (value, start, end) = ('a', 0, len(string))
 result = string.index(value, start, end)
 
 print(result)
-# Output: 7
+# out: 7
 
 print(string.find('q'))
-# Output: -1
+# out: -1
 
 print(string.index('q'))
-# Output:
+# out:
 #   ValueError: substring not found

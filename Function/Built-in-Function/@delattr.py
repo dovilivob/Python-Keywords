@@ -7,12 +7,12 @@ class Person:
 
 
 print(Person.country)
-# Output: Japan
+# out: Japan
 
 delattr(Person, 'country')
 
 print(Person.country)
-# Output:
+# out:
 #   AttributeError: 
 #   type object 'Person' has no attribute 'country'
 
